@@ -1,0 +1,48 @@
+h1 {
+    text-align: center;
+	color: #f43e0b;
+}
+
+.container {
+	max-width: 520px;
+    padding: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #b5e7a0;
+    font-size: 1.2em;
+}
+
+button, input[type=submit]{
+	padding: 15px 32px;
+	text-align: center;
+	font-size: 1.2em;
+	margin: 4px 2px;
+	cursor: pointer;
+	color: #f43e0b;
+	border: 2px solid #f43e0b;
+	border-radius: 10px;
+	background-color: #b5e7a0;
+	font-weight: bold;
+}
+
+label, input {
+	font-size: 1.2em;
+}
+
+input[type=text],
+input[type=number],
+input[type=color] {
+	display: block;
+    box-sizing: border-box;
+    width: 100%;
+	font-size: 1.2em;
+}
+
+button:hover, input[type=submit]:hover {
+	background-color: #f43e0b;
+	color: #b5e7a0;
+}
+
+	
+
